@@ -1,0 +1,44 @@
+{
+  "name": "node-express-mongoose",
+  "version": "1.0.0",
+  "description": "\"A boilerplate application for Node.js, express, mongoose and passport.\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ilyushin/node-express-mongoose.git"
+  },
+  "keywords": [
+    "\"boilerplate\"",
+    "\"node\"",
+    "\"express\"",
+    "\"passport\"",
+    "\"mongoose\""
+  ],
+  "author": "Ilyushin Evgeniy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ilyushin/node-express-mongoose/issues"
+  },
+  "homepage": "https://github.com/Ilyushin/node-express-mongoose#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "file-stream-rotator": "0.0.7",
+    "mongoose": "^4.6.6",
+    "morgan": "^1.7.0",
+    "npm": "^3.10.9",
+    "passport": "^0.3.2",
+    "passport-http": "^0.3.0",
+    "winston": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.9.1",
+    "mocha": "^3.1.2"
+  }
+}
